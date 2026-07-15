@@ -639,6 +639,15 @@ a { color: var(--forest-mid); text-decoration: none; }
 .media-link { font-size: 0.88rem; font-weight: 600; color: var(--gold-deep); }
 .media-link:hover { color: var(--forest); }
 
+.media-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.9rem;
+  margin-top: 0.9rem;
+}
+
+.media-gallery .img-frame { aspect-ratio: 4 / 3; }
+
 /* ---------- Team ---------- */
 .team-grid {
   display: grid;
@@ -781,6 +790,30 @@ footer {
 }
 
 .footer-brand .accent { color: var(--lime); }
+
+.social-row { display: flex; gap: 0.7rem; margin-top: 1rem; }
+
+.social-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(149, 213, 178, 0.12);
+  border: 1px solid rgba(149, 213, 178, 0.35);
+  color: var(--lime);
+  transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+}
+
+.social-btn svg { width: 21px; height: 21px; display: block; }
+
+.social-btn:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--forest-deep);
+  transform: translateY(-3px);
+}
 
 .footer-bottom {
   text-align: center;
