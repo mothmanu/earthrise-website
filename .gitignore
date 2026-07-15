@@ -1,0 +1,18 @@
+# Large media — the site uses YouTube embeds instead (see README)
+content/Multimedia/*.mp4
+content/Multimedia/*.mov
+
+# Source documents not needed by the published site
+# (workbook and survey contain interviewees' personal data — keep private)
+content/*.pdf
+content/Six Challenges.docx
+EarthRise E-Lab Work book 2026.xlsx
+EarthRise Survey.csv.zip
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local tooling
+.claude/

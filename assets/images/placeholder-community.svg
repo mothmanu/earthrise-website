@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#2D6A4F"/>
+  <path d="M0 360 Q200 300 400 350 T800 330 L800 500 L0 500 Z" fill="#1B4332"/>
+  <circle cx="150" cy="120" r="40" fill="#F4A261" opacity="0.9"/>
+  <g fill="#95D5B2">
+    <circle cx="340" cy="210" r="26"/>
+    <rect x="316" y="242" width="48" height="60" rx="18"/>
+    <circle cx="420" cy="200" r="30" opacity="0.85"/>
+    <rect x="392" y="236" width="56" height="70" rx="20" opacity="0.85"/>
+    <circle cx="500" cy="214" r="24" opacity="0.7"/>
+    <rect x="478" y="244" width="44" height="56" rx="16" opacity="0.7"/>
+  </g>
+  <text x="400" y="380" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#FBFAF7" text-anchor="middle" font-weight="600">Photo: Community &amp; fieldwork</text>
+  <text x="400" y="410" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#95D5B2" text-anchor="middle">Replace this image in assets/images/</text>
+</svg>
